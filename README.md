@@ -121,3 +121,7 @@ This project showcases a responsible, interpretable, and ethical application of 
 It highlights how AI can support preventive healthcare without replacing professional medical judgment.
 
 ---
+
+## Author
+**Rithikaa V**  
+B.Tech – Information Technology
