@@ -1,123 +1,123 @@
 # 🩺 Early Health Risk Screening using Machine Learning (Non-Diagnostic)
 
-## 📌 Project Overview
-This project demonstrates how machine learning can be applied in a **responsible and ethical way** to support **early health risk screening** using basic lifestyle information.
+## Project Overview
+This project demonstrates how Machine Learning can be responsibly applied to **early health risk screening** using **non-clinical lifestyle data**.  
+The goal is to identify **potential risk patterns** early, before serious health conditions develop.
 
-The system is **non-diagnostic** and **non-clinical**. It is intended only for **educational and preventive awareness purposes** and does not replace professional medical advice.
-
-All data used in this project is **synthetic**, ensuring privacy and academic safety.
-
----
-
-## 🎯 Problem Statement
-Many lifestyle-related health risks develop gradually and often remain unnoticed until they become serious.  
-This project explores whether common lifestyle indicators—such as sleep, stress, diet, physical activity, and habits—can help **identify early risk patterns** before clinical intervention is required.
+This system is **non-diagnostic**, **non-clinical**, and intended **only for educational and preventive screening purposes**.
 
 ---
 
-## 🧠 Approach
-The project follows an end-to-end machine learning workflow:
+## Problem Statement
+Preventive healthcare focuses on early awareness rather than late-stage treatment.  
+Many health risks are influenced by lifestyle factors such as sleep, stress, physical activity, diet, and habits.
 
-- Synthetic data generation  
-- Exploratory Data Analysis (EDA)  
-- Rule-based risk scoring  
-- Machine learning model training  
-- Model evaluation and comparison  
-- Explainability and interpretation  
-- Interactive user interface for real-time screening  
+This project explores whether these basic indicators can be used to **screen potential health risks**, without making any medical diagnosis.
 
 ---
 
-## 🧾 Features Used
-Only **non-medical and privacy-safe lifestyle inputs** were used:
-
-- Age  
-- Gender  
-- Diet Quality  
-- Exercise Frequency  
-- Sleep Duration  
-- Stress Level  
-- Smoking Status  
-- Alcohol Consumption  
-- BMI  
-
-These features are commonly associated with lifestyle-related health risks and are suitable for preventive screening.
+## Key Features
+- Synthetic lifestyle dataset generation
+- Exploratory Data Analysis (EDA)
+- Rule-based risk scoring system
+- Machine Learning models for risk classification
+- Model comparison and evaluation
+- Explainable ML using feature importance
+- Interactive user interface for manual input
+- Ethical and privacy-safe design
 
 ---
 
-## ⚙️ Machine Learning Models
-The following supervised learning models were trained and evaluated:
+## Input Features
+The model uses the following **non-clinical lifestyle factors**:
+- Age
+- Gender
+- Diet quality score
+- Exercise frequency
+- Sleep duration
+- Stress level
+- Smoking status
+- Alcohol consumption
+- Body Mass Index (BMI)
 
-- **Logistic Regression** (primary model)  
-- Random Forest Classifier  
-- Gradient Boosting Classifier  
-
-Logistic Regression was selected as the final model due to its **good performance and high interpretability**, which is important for health-related applications.
-
----
-
-## 📊 Model Evaluation
-Models were evaluated using standard classification metrics:
-
-- Accuracy  
-- Precision  
-- Recall  
-- F1 Score  
-- ROC-AUC Score  
-
-Special emphasis was placed on **recall**, as missing a high-risk individual is more critical than a false alert in preventive health screening.
+All inputs are **privacy-safe** and do not involve medical records.
 
 ---
 
-## 🧠 Explainability
-Explainability techniques were applied to understand which lifestyle factors contributed most to predicted risk levels.
+## Methodology
+1. **Synthetic Data Generation**  
+   Realistic lifestyle data is generated using controlled ranges and correlations.
 
-This helps avoid black-box predictions and supports **transparent and responsible use of machine learning**.
+2. **Exploratory Data Analysis (EDA)**  
+   Data distributions, correlations, and risk trends are analyzed using visualizations.
+
+3. **Rule-Based Risk Scoring**  
+   A human-interpretable risk score is calculated based on lifestyle factors.
+
+4. **Machine Learning Models**
+   - Logistic Regression
+   - Random Forest
+   - Gradient Boosting
+
+5. **Model Evaluation**
+   Models are evaluated using:
+   - Accuracy
+   - Precision
+   - Recall
+   - F1 Score
+   - ROC-AUC Score
+
+6. **Explainability**
+   Feature importance is used to understand which lifestyle factors influence risk predictions.
+
+7. **Interactive Risk Assessment Tool**
+   Users can manually input values using sliders and dropdowns to receive:
+   - Risk category
+   - Risk probability
+   - Personalized lifestyle suggestions
 
 ---
 
-## 🖥️ Interactive Health Risk Assessment Tool
-An interactive interface built using `ipywidgets` allows users to:
-
-- Enter lifestyle details manually  
-- View predicted risk category (Low / Moderate or High)  
-- Receive simple, non-clinical lifestyle suggestions  
-
-This simulates a real-world preventive screening tool and improves user understanding.
+## Results Summary
+- Logistic Regression achieved the best overall performance.
+- Strong correlation observed between rule-based risk score and ML predictions.
+- Lifestyle factors such as stress, age, BMI, and smoking status showed high influence.
 
 ---
 
-## ⚠️ Ethical Disclaimer
-- This system **does not diagnose diseases**
+## Ethical Considerations
 - Uses **synthetic data only**
-- No real medical or patient records are involved
-- Outputs are for **educational awareness**, not medical decisions
-
-Users are encouraged to consult healthcare professionals for medical concerns.
-
----
-
-## 🚀 Future Enhancements
-Potential future improvements include:
-
-- Validation using anonymized real-world datasets  
-- Time-series tracking of lifestyle changes  
-- Integration with wearable data (sleep and activity trends)  
-- Preventive health analytics for public health and policy use  
+- No personal or medical records involved
+- Outputs are **not medical advice**
+- Designed for awareness and education
+- Explicitly non-diagnostic
 
 ---
 
-## 👩‍💻 How I Built This
-This project was developed step-by-step as follows:
+## Limitations
+- Trained only on synthetic data
+- Limited number of lifestyle factors
+- Not suitable for real-world medical decision-making without validation
 
-1. Generated a synthetic dataset representing lifestyle factors  
-2. Performed exploratory data analysis to understand feature behavior  
-3. Designed a rule-based risk score as a baseline reference  
-4. Preprocessed data using encoding and feature scaling  
-5. Trained and evaluated multiple classification models  
-6. Selected an interpretable model for final predictions  
-7. Added explainability to understand model behavior  
-8. Built an interactive interface for real-time risk assessment  
-9. Included ethical safeguards and non-diagnostic disclaimers  
+---
+
+## Future Scope
+- Validation using anonymized real-world datasets
+- Time-series tracking of lifestyle changes
+- Integration with wearable data
+- Preventive health analytics at policy level
+
+---
+
+## How to Run the Project
+1. Open the notebook in Google Colab or Jupyter Notebook
+2. Run all cells sequentially from top to bottom
+3. Use the interactive sliders to test different lifestyle inputs
+
+---
+
+## Conclusion
+This project showcases a responsible, interpretable, and ethical application of Machine Learning for early health risk screening using lifestyle data.  
+It highlights how AI can support preventive healthcare without replacing professional medical judgment.
 
 ---
