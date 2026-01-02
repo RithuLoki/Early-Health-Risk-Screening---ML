@@ -114,7 +114,10 @@ All inputs are **privacy-safe** and do not involve medical records.
 2. Run all cells sequentially from top to bottom
 3. Use the interactive sliders to test different lifestyle inputs
 
-Note: The interactive interface is intended for local execution and is not run in the GitHub preview.
+## Note on Interactive Interface
+
+The interactive text-based interface is designed for local execution or Google Colab. 
+It is not executed in the GitHub preview to avoid rendering issues with input-based loops.
 
 ---
 
