@@ -116,8 +116,8 @@ All inputs are **privacy-safe** and do not involve medical records.
 
 ## Note on Interactive Interface
 
-The interactive text-based interface is designed for local execution or Google Colab. 
-It is not executed in the GitHub preview to avoid rendering issues with input-based loops.
+The interactive components of this project are intended for **local execution or Google Colab** only.  
+They are not executed in the GitHub preview to ensure reproducibility and avoid rendering issues.
 
 ---
 
