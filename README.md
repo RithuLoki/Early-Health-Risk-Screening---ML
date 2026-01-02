@@ -1,4 +1,4 @@
-# 🩺 Early Health Risk Screening using Machine Learning (Non-Diagnostic)
+# Early Health Risk Screening using Machine Learning (Non-Diagnostic)
 
 ## Project Overview
 This project demonstrates how Machine Learning can be responsibly applied to **early health risk screening** using **non-clinical lifestyle data**.  
