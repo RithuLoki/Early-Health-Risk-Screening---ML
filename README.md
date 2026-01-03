@@ -94,13 +94,6 @@ All inputs are **privacy-safe** and do not involve medical records.
 
 ---
 
-## Limitations
-- Trained only on synthetic data
-- Limited number of lifestyle factors
-- Not suitable for real-world medical decision-making without validation
-
----
-
 ## Future Scope
 - Validation using anonymized real-world datasets
 - Time-series tracking of lifestyle changes
@@ -114,7 +107,7 @@ All inputs are **privacy-safe** and do not involve medical records.
 2. Run all cells sequentially from top to bottom
 3. Use the interactive sliders to test different lifestyle inputs
 
-## Note on Interactive Interface
+### Note on Interactive Interface
 
 The interactive components of this project are intended for **local execution or Google Colab** only.  
 They are not executed in the GitHub preview to ensure reproducibility and avoid rendering issues.
